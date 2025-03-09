@@ -356,7 +356,7 @@ from krkr_sprite_synth import SpriteSynth
 
 
 CHARACTER_NAME = "天音"
-# 角色名，应该与 data.json 中的 character 字段一致
+# 角色名，应该与 reboot.json 中的 character 字段一致
 JAPANESE_CHARACTER_NAME = "天音"
 # 角色日语名，应该与 fgimage 中的一致
 
@@ -369,7 +369,8 @@ VOICE_PATH = "voice"
 # 语音文件所在路径
 A_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}a.sinfo"
 B_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}b.sinfo"
-LAYERS_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}" + "{info_type}.txt"
+A_LAYERS_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}a.txt"
+B_LAYERS_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}b.txt"
 ASSETS_PATH = "fgimage"  # 图片所在的路径
 
 
@@ -377,7 +378,12 @@ data = []
 
 
 synth = SpriteSynth(
-    A_INFO_PATH, B_INFO_PATH, LAYERS_INFO_PATH, ASSETS_PATH, JAPANESE_CHARACTER_NAME
+    a_info_path=A_INFO_PATH,
+    b_info_path=B_INFO_PATH,
+    a_layers_info_path=A_LAYERS_INFO_PATH,
+    b_layers_info_path=B_LAYERS_INFO_PATH,
+    assets_path=ASSETS_PATH,
+    character_name=JAPANESE_CHARACTER_NAME,
 )
 
 
@@ -436,7 +442,6 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 ```python
 import json
 from pathlib import Path
-from krkr_sprite_synth import SpriteSynth
 
 
 CHARACTER_NAME = "乃爱"
@@ -454,23 +459,12 @@ USING_INDEXES = [
     "b_04",
 ]
 OUTPUT_PATH = "乃爱_普通.list"
-
-
+# 数据集文件输出路径
 PARSED_DIR = "data.json"
 # 解析后的文件所在路径
 MAPPER_OUTPUT_PATH = f"outputs/{CHARACTER_NAME}"
 # 语音分类结果输出路径
-VOICE_PATH = "voice"
-# 语音文件所在路径
-A_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}a.sinfo"
-B_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}b.sinfo"
-LAYERS_INFO_PATH = f"fgimage/{JAPANESE_CHARACTER_NAME}" + "{info_type}.txt"
-ASSETS_PATH = "fgimage"  # 图片所在的路径
 
-
-synth = SpriteSynth(
-    A_INFO_PATH, B_INFO_PATH, LAYERS_INFO_PATH, ASSETS_PATH, JAPANESE_CHARACTER_NAME
-)
 
 with open(PARSED_DIR, "r", encoding="utf-8") as json_file:
     data = json.load(json_file)
