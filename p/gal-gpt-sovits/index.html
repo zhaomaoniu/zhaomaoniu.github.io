@@ -1,0 +1,1157 @@
+<!doctype html><html lang=zh-cn dir=ltr><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content="Galgame 又称美少女游戏，美少女自然是其中不可或缺的一环。\n在推完「她」的线后，我的内心十分满足，却好像又有些空虚。 我知道，在这个世界中，我会与她幸福永久地生活下去。 但现实中的我，却只能被剧本家画下的休止符挡在外面。 哪怕是一点也好，我想让她来到现实世界，真正地陪伴着我。\n"><title>从零开始的柚子社角色语音养成计划</title>
+<link rel=canonical href=https://zhaomaoniu.github.io/p/gal-gpt-sovits/><link rel=stylesheet href=/scss/style.min.ac8e7837b94f1f87c38dddbe20d3302f5085b733e2af690dda9b759bdffa976e.css><meta property='og:title' content="从零开始的柚子社角色语音养成计划"><meta property='og:description' content="Galgame 又称美少女游戏，美少女自然是其中不可或缺的一环。\n在推完「她」的线后，我的内心十分满足，却好像又有些空虚。 我知道，在这个世界中，我会与她幸福永久地生活下去。 但现实中的我，却只能被剧本家画下的休止符挡在外面。 哪怕是一点也好，我想让她来到现实世界，真正地陪伴着我。\n"><meta property='og:url' content='https://zhaomaoniu.github.io/p/gal-gpt-sovits/'><meta property='og:site_name' content='zhaomaoniu'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='柚子社'><meta property='article:tag' content='GPT-SoVITS'><meta property='article:published_time' content='2025-01-16T15:06:00+13:00'><meta property='article:modified_time' content='2025-01-16T15:06:00+13:00'><meta name=twitter:title content="从零开始的柚子社角色语音养成计划"><meta name=twitter:description content="Galgame 又称美少女游戏，美少女自然是其中不可或缺的一环。\n在推完「她」的线后，我的内心十分满足，却好像又有些空虚。 我知道，在这个世界中，我会与她幸福永久地生活下去。 但现实中的我，却只能被剧本家画下的休止符挡在外面。 哪怕是一点也好，我想让她来到现实世界，真正地陪伴着我。\n"><link rel="shortcut icon" href=/favicon.png></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label=切换菜单>
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src="https://q.qlogo.cn/g?b=qq&amp;nk=2667292003&amp;s=160" width=300 height=300 class=site-logo loading=lazy alt=Avatar>
+</a><span class=emoji>🥰</span></figure><div class=site-meta><h1 class=site-name><a href=/>zhaomaoniu</a></h1><h2 class=site-description>夢見る度、色が増えていく</h2></div></header><ol class=menu-social><li><a href=https://github.com/zhaomaoniu target=_blank title=GitHub rel=me><svg class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li></ol><ol class=menu id=main-menu><li><a href=/><svg class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
+<span>首页</span></a></li><li><a href=/archives/><svg class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+<span>归档</span></a></li><li><a href=/search/><svg class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+<span>搜索</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sun-high"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.828 14.828A4 4 0 109.172 9.172a4 4 0 005.656 5.656z"/><path d="M6.343 17.657l-1.414 1.414"/><path d="M6.343 6.343 4.929 4.929"/><path d="M17.657 6.343l1.414-1.414"/><path d="M17.657 17.657l1.414 1.414"/><path d="M4 12H2"/><path d="M12 4V2"/><path d="M20 12h2"/><path d="M12 20v2"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-moon-stars"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"/><path d="M17 4a2 2 0 002 2 2 2 0 00-2 2 2 2 0 00-2-2 2 2 0 002-2"/><path d="M19 11h2m-1-1v2"/></svg>
+<span>深色模式</span></li></ol></li></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">目录</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#准备工作>准备工作</a><ol><li><a href=#工具>工具</a></li><li><a href=#资源>资源</a></li><li><a href=#脚本>脚本</a></li></ol></li><li><a href=#操作>操作</a><ol><li><a href=#解码剧情>解码剧情</a></li><li><a href=#运行脚本>运行脚本</a><ol><li><a href=#数据提取-parserpy>数据提取 (parser.py)</a></li><li><a href=#语音分类-mapperpy>语音分类 (mapper.py)</a></li><li><a href=#生成-list-文件-list_generatorpy>生成 .list 文件 (list_generator.py)</a></li></ol></li><li><a href=#训练-gpt-sovits-模型>训练 GPT-SoVITS 模型</a></li></ol></li></ol></nav></div></section></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=/categories/%E7%A7%91%E6%8A%80/ style=background-color:#2a9d8f;color:#fff>科技</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/p/gal-gpt-sovits/>从零开始的柚子社角色语音养成计划</a></h2></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Jan 16, 2025</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>阅读时长: 14 分钟</time></div></footer></div></header><section class=article-content><p>Galgame 又称美少女游戏，美少女自然是其中不可或缺的一环。</p><p>在推完「她」的线后，我的内心十分满足，却好像又有些空虚。
+我知道，在这个世界中，我会与她幸福永久地生活下去。
+但现实中的我，却只能被剧本家画下的休止符挡在外面。
+哪怕是一点也好，我想让她来到现实世界，真正地陪伴着我。</p><p>她的声音是十分重要的一部分。
+因此，本篇文章的目的就是近乎完美地复刻「她」的声音。</p><blockquote><p>每个人的「她」都不太一样，这里仅指柚子社的女主们</p></blockquote><h2 id=准备工作>准备工作</h2><p>本篇文章会涉及到许多计算机相关知识，推荐你先掌握下面几个技能点后再开始行动</p><ul><li>基础的命令行用法</li><li>科学上网的方法</li><li>日语中五十音的基本发音</li></ul><h3 id=工具>工具</h3><ul><li><p>Python: 简洁美观的编程语言<br>下载链接: <a class=link href=https://www.python.org/downloads/ target=_blank rel=noopener>https://www.python.org/downloads/</a><br><strong>注意</strong>: 安装时勾选 <code>Add Python to PATH</code> 选项</p></li><li><p>GARbro: 视觉小说资源浏览器<br>下载链接: <a class=link href=https://github.com/morkt/GARbro/releases/tag/v1.5.44 target=_blank rel=noopener>https://github.com/morkt/GARbro/releases/tag/v1.5.44</a></p></li><li><p>FreeMote: Emote/PSB 管理工具<br>下载链接: <a class=link href=https://github.com/UlyssesWu/FreeMote/releases/tag/v4.0.0 target=_blank rel=noopener>https://github.com/UlyssesWu/FreeMote/releases/tag/v4.0.0</a></p></li><li><p>GPT-SoVITS: 声音克隆<br>下载链接 (整合包): <a class=link href=https://www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e/dkxgpiy9zb96hob4#KTvnO target=_blank rel=noopener>https://www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e/dkxgpiy9zb96hob4#KTvnO</a></p></li><li><p>一个好用的文本编辑器<br>推荐: <a class=link href=https://www.sublimetext.com/ target=_blank rel=noopener>Sublime Text</a>, <a class=link href=https://code.visualstudio.com/ target=_blank rel=noopener>Visual Studio Code</a><br>如果自信的话，用系统自带的记事本也没有问题。</p></li></ul><p>上述软件安装好后，请打开命令行，输入下面的命令，安装一些第三方库：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>pip install krkr-sprite-synth tqdm -i https://pypi.tuna.tsinghua.edu.cn/simple
+</span></span></code></pre></td></tr></table></div></div><p>其中，<code>krkr-sprite-synth</code> 是用于合成 <del>Kirikiri 引擎（未测试）</del> 柚子社游戏的角色立绘的库，<code>tqdm</code> 是用于显示进度条的库。</p><p>如果出现错误，请尝试删除 <code>-i</code> 及以后的内容，重新运行命令。</p><p>顺利的话，你会看到命令的最后一行输出是 <code>Successfully installed ...</code>，这表示你已经成功安装了。</p><blockquote><p>顺带一提，<code>krkr-sprite-synth</code> 是我写的，所以有什么问题都是我的锅（</p></blockquote><h3 id=资源>资源</h3><p>资源，也就是数据，来源于游戏本身。</p><p>它可以通过录屏、截屏获取，不过这里我们选择解包。相比截屏，解包获取数据的效率更高，不需要对数据进行太多处理就能使用。</p><p>本文推荐使用民间汉化提供的游戏进行解包，因为它们通常是没有加密的（或者说汉化组已经帮我们解密好了）。</p><p>你需要在 GARbro 中进入游戏的目录，并把其中的 <code>scn.xp3</code>, <code>fgimage.xp3</code> 和 <code>voice.xp3</code> 提取到一个新建文件夹。</p><blockquote><p>如果你发现 GARbro 打不开这些 <code>.xp3</code> 文件，可以尝试把它们从游戏目录复制出来后，重新用 GARbro 打开副本，加密方法选择 <code>no encryption</code> 即可。</p></blockquote><p>完成后，你的新建文件夹应该差不多长这样。如果不是的话，最好整理一下，不然待会会变的一团糟。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-text data-lang=text><span class=line><span class=cl>root/
+</span></span><span class=line><span class=cl>├── scn/
+</span></span><span class=line><span class=cl>│ ├── 【共通】01.ks.scn
+</span></span><span class=line><span class=cl>│ ├── 【共通】02.ks.scn
+</span></span><span class=line><span class=cl>│ ├── 【共通】03.ks.scn
+</span></span><span class=line><span class=cl>│ └── ...
+</span></span><span class=line><span class=cl>├── voice/
+</span></span><span class=line><span class=cl>│ ├── ama_001_0001.ogg
+</span></span><span class=line><span class=cl>│ ├── ama_001_0002.ogg
+</span></span><span class=line><span class=cl>│ ├── ama_001_0003.ogg
+</span></span><span class=line><span class=cl>│ └── ...
+</span></span><span class=line><span class=cl>├── fgimage/
+</span></span><span class=line><span class=cl>│ ├── かぐ耶.stand
+</span></span><span class=line><span class=cl>│ ├── かぐ耶a.sinfo
+</span></span><span class=line><span class=cl>│ ├── かぐ耶a.txt
+</span></span><span class=line><span class=cl>│ ├── かぐ耶a_0.txt
+</span></span><span class=line><span class=cl>│ ├── かぐ耶a_0_5096.png
+</span></span><span class=line><span class=cl>│ ├── かぐ耶a_0_5097.png
+</span></span><span class=line><span class=cl>│ ├── かぐ耶a_0_5151.png
+</span></span><span class=line><span class=cl>│ ├── ...
+</span></span><span class=line><span class=cl>│ ├── かぐ耶b.sinfo
+</span></span><span class=line><span class=cl>│ ├── かぐ耶b.txt
+</span></span><span class=line><span class=cl>│ ├── かぐ耶b_0.txt
+</span></span><span class=line><span class=cl>│ ├── かぐ耶b_0_6423.png
+</span></span><span class=line><span class=cl>│ ├── かぐ耶b_0_6529.png
+</span></span><span class=line><span class=cl>│ ├── かぐ耶b_0_6530.png
+</span></span><span class=line><span class=cl>│ └── ...
+</span></span><span class=line><span class=cl>└── ...
+</span></span></code></pre></td></tr></table></div></div><h3 id=脚本>脚本</h3><p>脚本是本文的核心，用于数据提取、分类语音和生成 GPT-SoVITS 的 <code>.list</code> 文件。</p><p>将下面折叠起来的脚本分别保存为 <code>parser.py</code>, <code>mapper.py</code>, <code>list_generator.py</code> 和 <code>finder.py</code>，放在你刚才新建的文件夹中。</p><blockquote><p>（以防你其实不知道）其实 <code>.py</code> 文件就是文本文件，你只需要新建一个文本文件，把下面的内容复制进去，然后把文件后缀名改为 <code>.py</code> 即可。</p></blockquote><details><summary>parser.py</summary><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>  1
+</span><span class=lnt>  2
+</span><span class=lnt>  3
+</span><span class=lnt>  4
+</span><span class=lnt>  5
+</span><span class=lnt>  6
+</span><span class=lnt>  7
+</span><span class=lnt>  8
+</span><span class=lnt>  9
+</span><span class=lnt> 10
+</span><span class=lnt> 11
+</span><span class=lnt> 12
+</span><span class=lnt> 13
+</span><span class=lnt> 14
+</span><span class=lnt> 15
+</span><span class=lnt> 16
+</span><span class=lnt> 17
+</span><span class=lnt> 18
+</span><span class=lnt> 19
+</span><span class=lnt> 20
+</span><span class=lnt> 21
+</span><span class=lnt> 22
+</span><span class=lnt> 23
+</span><span class=lnt> 24
+</span><span class=lnt> 25
+</span><span class=lnt> 26
+</span><span class=lnt> 27
+</span><span class=lnt> 28
+</span><span class=lnt> 29
+</span><span class=lnt> 30
+</span><span class=lnt> 31
+</span><span class=lnt> 32
+</span><span class=lnt> 33
+</span><span class=lnt> 34
+</span><span class=lnt> 35
+</span><span class=lnt> 36
+</span><span class=lnt> 37
+</span><span class=lnt> 38
+</span><span class=lnt> 39
+</span><span class=lnt> 40
+</span><span class=lnt> 41
+</span><span class=lnt> 42
+</span><span class=lnt> 43
+</span><span class=lnt> 44
+</span><span class=lnt> 45
+</span><span class=lnt> 46
+</span><span class=lnt> 47
+</span><span class=lnt> 48
+</span><span class=lnt> 49
+</span><span class=lnt> 50
+</span><span class=lnt> 51
+</span><span class=lnt> 52
+</span><span class=lnt> 53
+</span><span class=lnt> 54
+</span><span class=lnt> 55
+</span><span class=lnt> 56
+</span><span class=lnt> 57
+</span><span class=lnt> 58
+</span><span class=lnt> 59
+</span><span class=lnt> 60
+</span><span class=lnt> 61
+</span><span class=lnt> 62
+</span><span class=lnt> 63
+</span><span class=lnt> 64
+</span><span class=lnt> 65
+</span><span class=lnt> 66
+</span><span class=lnt> 67
+</span><span class=lnt> 68
+</span><span class=lnt> 69
+</span><span class=lnt> 70
+</span><span class=lnt> 71
+</span><span class=lnt> 72
+</span><span class=lnt> 73
+</span><span class=lnt> 74
+</span><span class=lnt> 75
+</span><span class=lnt> 76
+</span><span class=lnt> 77
+</span><span class=lnt> 78
+</span><span class=lnt> 79
+</span><span class=lnt> 80
+</span><span class=lnt> 81
+</span><span class=lnt> 82
+</span><span class=lnt> 83
+</span><span class=lnt> 84
+</span><span class=lnt> 85
+</span><span class=lnt> 86
+</span><span class=lnt> 87
+</span><span class=lnt> 88
+</span><span class=lnt> 89
+</span><span class=lnt> 90
+</span><span class=lnt> 91
+</span><span class=lnt> 92
+</span><span class=lnt> 93
+</span><span class=lnt> 94
+</span><span class=lnt> 95
+</span><span class=lnt> 96
+</span><span class=lnt> 97
+</span><span class=lnt> 98
+</span><span class=lnt> 99
+</span><span class=lnt>100
+</span><span class=lnt>101
+</span><span class=lnt>102
+</span><span class=lnt>103
+</span><span class=lnt>104
+</span><span class=lnt>105
+</span><span class=lnt>106
+</span><span class=lnt>107
+</span><span class=lnt>108
+</span><span class=lnt>109
+</span><span class=lnt>110
+</span><span class=lnt>111
+</span><span class=lnt>112
+</span><span class=lnt>113
+</span><span class=lnt>114
+</span><span class=lnt>115
+</span><span class=lnt>116
+</span><span class=lnt>117
+</span><span class=lnt>118
+</span><span class=lnt>119
+</span><span class=lnt>120
+</span><span class=lnt>121
+</span><span class=lnt>122
+</span><span class=lnt>123
+</span><span class=lnt>124
+</span><span class=lnt>125
+</span><span class=lnt>126
+</span><span class=lnt>127
+</span><span class=lnt>128
+</span><span class=lnt>129
+</span><span class=lnt>130
+</span><span class=lnt>131
+</span><span class=lnt>132
+</span><span class=lnt>133
+</span><span class=lnt>134
+</span><span class=lnt>135
+</span><span class=lnt>136
+</span><span class=lnt>137
+</span><span class=lnt>138
+</span><span class=lnt>139
+</span><span class=lnt>140
+</span><span class=lnt>141
+</span><span class=lnt>142
+</span><span class=lnt>143
+</span><span class=lnt>144
+</span><span class=lnt>145
+</span><span class=lnt>146
+</span><span class=lnt>147
+</span><span class=lnt>148
+</span><span class=lnt>149
+</span><span class=lnt>150
+</span><span class=lnt>151
+</span><span class=lnt>152
+</span><span class=lnt>153
+</span><span class=lnt>154
+</span><span class=lnt>155
+</span><span class=lnt>156
+</span><span class=lnt>157
+</span><span class=lnt>158
+</span><span class=lnt>159
+</span><span class=lnt>160
+</span><span class=lnt>161
+</span><span class=lnt>162
+</span><span class=lnt>163
+</span><span class=lnt>164
+</span><span class=lnt>165
+</span><span class=lnt>166
+</span><span class=lnt>167
+</span><span class=lnt>168
+</span><span class=lnt>169
+</span><span class=lnt>170
+</span><span class=lnt>171
+</span><span class=lnt>172
+</span><span class=lnt>173
+</span><span class=lnt>174
+</span><span class=lnt>175
+</span><span class=lnt>176
+</span><span class=lnt>177
+</span><span class=lnt>178
+</span><span class=lnt>179
+</span><span class=lnt>180
+</span><span class=lnt>181
+</span><span class=lnt>182
+</span><span class=lnt>183
+</span><span class=lnt>184
+</span><span class=lnt>185
+</span><span class=lnt>186
+</span><span class=lnt>187
+</span><span class=lnt>188
+</span><span class=lnt>189
+</span><span class=lnt>190
+</span><span class=lnt>191
+</span><span class=lnt>192
+</span><span class=lnt>193
+</span><span class=lnt>194
+</span><span class=lnt>195
+</span><span class=lnt>196
+</span><span class=lnt>197
+</span><span class=lnt>198
+</span><span class=lnt>199
+</span><span class=lnt>200
+</span><span class=lnt>201
+</span><span class=lnt>202
+</span><span class=lnt>203
+</span><span class=lnt>204
+</span><span class=lnt>205
+</span><span class=lnt>206
+</span><span class=lnt>207
+</span><span class=lnt>208
+</span><span class=lnt>209
+</span><span class=lnt>210
+</span><span class=lnt>211
+</span><span class=lnt>212
+</span><span class=lnt>213
+</span><span class=lnt>214
+</span><span class=lnt>215
+</span><span class=lnt>216
+</span><span class=lnt>217
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>os</span>
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>re</span>
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>json</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>tqdm</span> <span class=kn>import</span> <span class=n>tqdm</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>pathlib</span> <span class=kn>import</span> <span class=n>Path</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>dataclasses</span> <span class=kn>import</span> <span class=n>dataclass</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>typing</span> <span class=kn>import</span> <span class=n>List</span><span class=p>,</span> <span class=n>Union</span><span class=p>,</span> <span class=n>Callable</span><span class=p>,</span> <span class=n>Dict</span><span class=p>,</span> <span class=n>Any</span><span class=p>,</span> <span class=n>Optional</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nd>@dataclass</span>
+</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>TextEntry</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;&#34;&#34;存储文本条目信息的数据类&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=n>character</span><span class=p>:</span> <span class=nb>str</span>
+</span></span><span class=line><span class=cl>    <span class=n>voice</span><span class=p>:</span> <span class=nb>str</span>
+</span></span><span class=line><span class=cl>    <span class=n>text</span><span class=p>:</span> <span class=nb>str</span>
+</span></span><span class=line><span class=cl>    <span class=n>options</span><span class=p>:</span> <span class=n>Dict</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>Any</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>JapaneseTextProcessor</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;&#34;&#34;处理日语文本的主类&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=c1># 类级别常量</span>
+</span></span><span class=line><span class=cl>    <span class=n>HIRAGANA_RANGE</span> <span class=o>=</span> <span class=p>(</span><span class=s2>&#34;</span><span class=se>\u3040</span><span class=s2>&#34;</span><span class=p>,</span> <span class=s2>&#34;</span><span class=se>\u309F</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>KATAKANA_RANGE</span> <span class=o>=</span> <span class=p>(</span><span class=s2>&#34;</span><span class=se>\u30A0</span><span class=s2>&#34;</span><span class=p>,</span> <span class=s2>&#34;</span><span class=se>\u30FF</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>CHARACTER_MAPPINGS</span> <span class=o>=</span> <span class=p>{</span><span class=s2>&#34;乃愛&#34;</span><span class=p>:</span> <span class=s2>&#34;乃爱&#34;</span><span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=c1># 用于将角色名映射到正确的名称</span>
+</span></span><span class=line><span class=cl>    <span class=c1># 汉化组可能会忘记翻译某些角色名，导致同一个角色因为两个不同的名字被当成不同的角色</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nd>@staticmethod</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>contains_kana</span><span class=p>(</span><span class=n>text</span><span class=p>:</span> <span class=nb>str</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>bool</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;&#34;&#34;检查文本是否包含假名&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=nb>any</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>            <span class=p>(</span>
+</span></span><span class=line><span class=cl>                <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>HIRAGANA_RANGE</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>                <span class=o>&lt;=</span> <span class=n>char</span>
+</span></span><span class=line><span class=cl>                <span class=o>&lt;=</span> <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>HIRAGANA_RANGE</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>            <span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=ow>or</span> <span class=p>(</span>
+</span></span><span class=line><span class=cl>                <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>KATAKANA_RANGE</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>                <span class=o>&lt;=</span> <span class=n>char</span>
+</span></span><span class=line><span class=cl>                <span class=o>&lt;=</span> <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>KATAKANA_RANGE</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>            <span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=k>for</span> <span class=n>char</span> <span class=ow>in</span> <span class=n>text</span>
+</span></span><span class=line><span class=cl>        <span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nd>@staticmethod</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>clean_text</span><span class=p>(</span><span class=n>text</span><span class=p>:</span> <span class=nb>str</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>str</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;&#34;&#34;清理文本中的特殊标记&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=n>text</span> <span class=o>=</span> <span class=n>re</span><span class=o>.</span><span class=n>sub</span><span class=p>(</span><span class=sa>r</span><span class=s2>&#34;\[.*?\]&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>,</span> <span class=n>text</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=n>text</span> <span class=o>=</span> <span class=n>re</span><span class=o>.</span><span class=n>sub</span><span class=p>(</span><span class=sa>r</span><span class=s2>&#34;</span><span class=se>\\</span><span class=s2>n&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>,</span> <span class=n>text</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=n>text</span> <span class=o>=</span> <span class=n>re</span><span class=o>.</span><span class=n>sub</span><span class=p>(</span><span class=sa>r</span><span class=s2>&#34;%.*?;&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>,</span> <span class=n>text</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>text</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nd>@staticmethod</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>create_japanese_text_extractor</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>        <span class=n>samples</span><span class=p>:</span> <span class=n>List</span><span class=p>[</span><span class=n>Union</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>List</span><span class=p>[</span><span class=n>List</span><span class=p>[</span><span class=nb>str</span><span class=p>]]]]</span>
+</span></span><span class=line><span class=cl>    <span class=p>)</span> <span class=o>-&gt;</span> <span class=n>Callable</span><span class=p>[[</span><span class=n>Union</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>List</span><span class=p>[</span><span class=n>List</span><span class=p>[</span><span class=nb>str</span><span class=p>]]]],</span> <span class=nb>str</span><span class=p>]:</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;&#34;&#34;创建日语文本提取器&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=n>position_counter</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=n>sample</span> <span class=ow>in</span> <span class=n>samples</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>sample</span><span class=p>,</span> <span class=nb>str</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                <span class=n>position_counter</span><span class=p>[</span><span class=s2>&#34;direct&#34;</span><span class=p>]</span> <span class=o>+=</span> <span class=mi>1</span>
+</span></span><span class=line><span class=cl>            <span class=k>elif</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>sample</span><span class=p>,</span> <span class=nb>list</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                <span class=k>for</span> <span class=n>inner_list</span> <span class=ow>in</span> <span class=n>sample</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=k>if</span> <span class=ow>not</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>inner_list</span><span class=p>,</span> <span class=nb>list</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                        <span class=k>continue</span>
+</span></span><span class=line><span class=cl>                    <span class=k>for</span> <span class=n>i</span><span class=p>,</span> <span class=n>text</span> <span class=ow>in</span> <span class=nb>enumerate</span><span class=p>(</span><span class=n>inner_list</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                        <span class=k>if</span> <span class=nb>isinstance</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>                            <span class=n>text</span><span class=p>,</span> <span class=nb>str</span>
+</span></span><span class=line><span class=cl>                        <span class=p>)</span> <span class=ow>and</span> <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>contains_kana</span><span class=p>(</span><span class=n>text</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                            <span class=c1># 字数小于 5 的文本权重为 1，否则为 2</span>
+</span></span><span class=line><span class=cl>                            <span class=c1># 防止定位到角色名</span>
+</span></span><span class=line><span class=cl>                            <span class=n>position_counter</span><span class=p>[</span><span class=n>i</span><span class=p>]</span> <span class=o>+=</span> <span class=mi>1</span> <span class=k>if</span> <span class=nb>len</span><span class=p>(</span><span class=n>text</span><span class=p>)</span> <span class=o>&lt;</span> <span class=mi>5</span> <span class=k>else</span> <span class=mi>2</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=ow>not</span> <span class=n>position_counter</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span><span class=s2>&#34;No valid text position found in samples&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=n>most_common_position</span> <span class=o>=</span> <span class=n>position_counter</span><span class=o>.</span><span class=n>most_common</span><span class=p>(</span><span class=mi>1</span><span class=p>)[</span><span class=mi>0</span><span class=p>][</span><span class=mi>0</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>def</span> <span class=nf>extractor</span><span class=p>(</span><span class=n>data</span><span class=p>:</span> <span class=n>Union</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>List</span><span class=p>[</span><span class=n>List</span><span class=p>[</span><span class=nb>str</span><span class=p>]]])</span> <span class=o>-&gt;</span> <span class=nb>str</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>data</span><span class=p>,</span> <span class=nb>str</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                <span class=k>return</span> <span class=n>data</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>data</span><span class=p>,</span> <span class=nb>list</span><span class=p>)</span> <span class=ow>and</span> <span class=n>data</span> <span class=ow>and</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>data</span><span class=p>[</span><span class=mi>0</span><span class=p>],</span> <span class=nb>list</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                <span class=k>if</span> <span class=n>most_common_position</span> <span class=o>==</span> <span class=s2>&#34;direct&#34;</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=k>return</span> <span class=n>data</span><span class=p>[</span><span class=mi>0</span><span class=p>][</span><span class=mi>0</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>                <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=k>return</span> <span class=n>data</span><span class=p>[</span><span class=mi>0</span><span class=p>][</span><span class=n>most_common_position</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>                <span class=k>except</span> <span class=ne>IndexError</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Cannot access position </span><span class=si>{</span><span class=n>most_common_position</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span><span class=s2>&#34;Unsupported data structure&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>extractor</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>SceneParser</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;&#34;&#34;场景解析器类&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>base_path</span><span class=p>:</span> <span class=nb>str</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>base_path</span> <span class=o>=</span> <span class=n>Path</span><span class=p>(</span><span class=n>base_path</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>parse_scene</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=p>,</span> <span class=n>scene_data</span><span class=p>:</span> <span class=n>Dict</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>Any</span><span class=p>],</span> <span class=n>extractor</span><span class=p>:</span> <span class=n>Callable</span>
+</span></span><span class=line><span class=cl>    <span class=p>)</span> <span class=o>-&gt;</span> <span class=n>List</span><span class=p>[</span><span class=n>TextEntry</span><span class=p>]:</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;&#34;&#34;解析单个场景&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=n>entries</span> <span class=o>=</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=n>text_data</span> <span class=ow>in</span> <span class=n>scene_data</span><span class=o>.</span><span class=n>get</span><span class=p>(</span><span class=s2>&#34;texts&#34;</span><span class=p>,</span> <span class=p>[]):</span>
+</span></span><span class=line><span class=cl>            <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                <span class=n>entry</span> <span class=o>=</span> <span class=bp>self</span><span class=o>.</span><span class=n>_process_text_entry</span><span class=p>(</span><span class=n>text_data</span><span class=p>,</span> <span class=n>extractor</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=k>if</span> <span class=n>entry</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=n>entries</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>entry</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=k>except</span> <span class=p>(</span><span class=ne>IndexError</span><span class=p>,</span> <span class=ne>KeyError</span><span class=p>)</span> <span class=k>as</span> <span class=n>e</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Error processing text entry: </span><span class=si>{</span><span class=n>e</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>entries</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>_process_text_entry</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=p>,</span> <span class=n>text_data</span><span class=p>:</span> <span class=n>List</span><span class=p>,</span> <span class=n>extractor</span><span class=p>:</span> <span class=n>Callable</span>
+</span></span><span class=line><span class=cl>    <span class=p>)</span> <span class=o>-&gt;</span> <span class=n>Optional</span><span class=p>[</span><span class=n>TextEntry</span><span class=p>]:</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;&#34;&#34;处理单个文本条目&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=n>character_name</span> <span class=o>=</span> <span class=n>text_data</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>        <span class=n>voice_data</span> <span class=o>=</span> <span class=n>text_data</span><span class=p>[</span><span class=mi>2</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>        <span class=n>action_data</span> <span class=o>=</span> <span class=n>text_data</span><span class=p>[</span><span class=mi>4</span><span class=p>][</span><span class=s2>&#34;data&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=n>character_name</span> <span class=ow>is</span> <span class=kc>None</span> <span class=ow>or</span> <span class=n>voice_data</span> <span class=ow>is</span> <span class=kc>None</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=kc>None</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=n>voice</span> <span class=o>=</span> <span class=n>voice_data</span><span class=p>[</span><span class=mi>0</span><span class=p>][</span><span class=s2>&#34;voice&#34;</span><span class=p>]</span><span class=o>.</span><span class=n>split</span><span class=p>(</span><span class=s2>&#34;|&#34;</span><span class=p>)[</span><span class=mi>0</span><span class=p>]</span> <span class=k>if</span> <span class=n>voice_data</span> <span class=k>else</span> <span class=kc>None</span>
+</span></span><span class=line><span class=cl>        <span class=c1># kag_507_0013|DSP_ビデオ通話 -&gt; kag_507_0013</span>
+</span></span><span class=line><span class=cl>        <span class=c1># NOTE: 天使骚骚是这样存的，脚本迁移到别的游戏是时候可能需要更改</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=ow>not</span> <span class=n>voice</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=kc>None</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=n>scns</span> <span class=o>=</span> <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>clean_text</span><span class=p>(</span><span class=n>extractor</span><span class=p>(</span><span class=n>text_data</span><span class=p>[</span><span class=mi>1</span><span class=p>]))</span>
+</span></span><span class=line><span class=cl>        <span class=n>character_name</span> <span class=o>=</span> <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>CHARACTER_MAPPINGS</span><span class=o>.</span><span class=n>get</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>            <span class=n>character_name</span><span class=p>,</span> <span class=n>character_name</span>
+</span></span><span class=line><span class=cl>        <span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>action_data</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=n>entry</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span> <span class=o>==</span> <span class=s2>&#34;msgwin&#34;</span> <span class=ow>and</span> <span class=n>entry</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span> <span class=o>==</span> <span class=s2>&#34;face&#34;</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                <span class=n>options</span> <span class=o>=</span> <span class=p>(</span>
+</span></span><span class=line><span class=cl>                    <span class=n>entry</span><span class=p>[</span><span class=mi>2</span><span class=p>]</span><span class=o>.</span><span class=n>get</span><span class=p>(</span><span class=s2>&#34;redraw&#34;</span><span class=p>,</span> <span class=p>{})</span><span class=o>.</span><span class=n>get</span><span class=p>(</span><span class=s2>&#34;imageFile&#34;</span><span class=p>,</span> <span class=p>{})</span><span class=o>.</span><span class=n>get</span><span class=p>(</span><span class=s2>&#34;options&#34;</span><span class=p>,</span> <span class=p>{})</span>
+</span></span><span class=line><span class=cl>                <span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=k>if</span> <span class=n>options</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=k>return</span> <span class=n>TextEntry</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>                        <span class=n>character</span><span class=o>=</span><span class=n>character_name</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                        <span class=n>voice</span><span class=o>=</span><span class=n>voice</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                        <span class=n>text</span><span class=o>=</span><span class=n>scns</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                        <span class=n>options</span><span class=o>=</span><span class=n>options</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                    <span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=kc>None</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>process_file</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>filename</span><span class=p>:</span> <span class=nb>str</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=n>List</span><span class=p>[</span><span class=n>TextEntry</span><span class=p>]:</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;&#34;&#34;处理单个文件&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=n>file_path</span> <span class=o>=</span> <span class=bp>self</span><span class=o>.</span><span class=n>base_path</span> <span class=o>/</span> <span class=n>filename</span>
+</span></span><span class=line><span class=cl>        <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=n>file_path</span><span class=p>,</span> <span class=s2>&#34;r&#34;</span><span class=p>,</span> <span class=n>encoding</span><span class=o>=</span><span class=s2>&#34;utf-8&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>json_file</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                <span class=n>data</span> <span class=o>=</span> <span class=n>json</span><span class=o>.</span><span class=n>load</span><span class=p>(</span><span class=n>json_file</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=n>result</span> <span class=o>=</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>            <span class=k>for</span> <span class=n>scene</span> <span class=ow>in</span> <span class=n>data</span><span class=o>.</span><span class=n>get</span><span class=p>(</span><span class=s2>&#34;scenes&#34;</span><span class=p>,</span> <span class=p>[]):</span>
+</span></span><span class=line><span class=cl>                <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=k>if</span> <span class=ow>not</span> <span class=n>scene</span><span class=o>.</span><span class=n>get</span><span class=p>(</span><span class=s2>&#34;texts&#34;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>                        <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>                    <span class=n>samples</span> <span class=o>=</span> <span class=p>[</span><span class=n>entry</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span> <span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>scene</span><span class=p>[</span><span class=s2>&#34;texts&#34;</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl>                    <span class=n>extractor</span> <span class=o>=</span> <span class=n>JapaneseTextProcessor</span><span class=o>.</span><span class=n>create_japanese_text_extractor</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>                        <span class=n>samples</span>
+</span></span><span class=line><span class=cl>                    <span class=p>)</span>
+</span></span><span class=line><span class=cl>                    <span class=n>result</span><span class=o>.</span><span class=n>extend</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>parse_scene</span><span class=p>(</span><span class=n>scene</span><span class=p>,</span> <span class=n>extractor</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>                <span class=k>except</span> <span class=p>(</span><span class=ne>KeyError</span><span class=p>,</span> <span class=ne>IndexError</span><span class=p>)</span> <span class=k>as</span> <span class=n>e</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                    <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Error processing scene in </span><span class=si>{</span><span class=n>filename</span><span class=si>}</span><span class=s2>: </span><span class=si>{</span><span class=n>e</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                    <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=n>result</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>except</span> <span class=n>json</span><span class=o>.</span><span class=n>JSONDecodeError</span> <span class=k>as</span> <span class=n>e</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Error decoding JSON from </span><span class=si>{</span><span class=n>filename</span><span class=si>}</span><span class=s2>: </span><span class=si>{</span><span class=n>e</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>        <span class=k>except</span> <span class=ne>Exception</span> <span class=k>as</span> <span class=n>e</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Unexpected error processing </span><span class=si>{</span><span class=n>filename</span><span class=si>}</span><span class=s2>: </span><span class=si>{</span><span class=n>e</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>main</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;&#34;&#34;主函数&#34;&#34;&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=n>parser</span> <span class=o>=</span> <span class=n>SceneParser</span><span class=p>(</span><span class=s2>&#34;unparsed&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>all_results</span> <span class=o>=</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=c1># 获取所有需要处理的文件</span>
+</span></span><span class=line><span class=cl>    <span class=n>files_to_process</span> <span class=o>=</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>        <span class=n>f</span> <span class=k>for</span> <span class=n>f</span> <span class=ow>in</span> <span class=n>os</span><span class=o>.</span><span class=n>listdir</span><span class=p>(</span><span class=n>parser</span><span class=o>.</span><span class=n>base_path</span><span class=p>)</span> <span class=k>if</span> <span class=n>f</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>&#34;.ks.json&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=c1># 使用tqdm创建进度条</span>
+</span></span><span class=line><span class=cl>    <span class=k>for</span> <span class=n>filename</span> <span class=ow>in</span> <span class=n>tqdm</span><span class=p>(</span><span class=n>files_to_process</span><span class=p>,</span> <span class=n>desc</span><span class=o>=</span><span class=s2>&#34;Processing files&#34;</span><span class=p>,</span> <span class=n>unit</span><span class=o>=</span><span class=s2>&#34;file&#34;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=n>results</span> <span class=o>=</span> <span class=n>parser</span><span class=o>.</span><span class=n>process_file</span><span class=p>(</span><span class=n>filename</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=n>all_results</span><span class=o>.</span><span class=n>extend</span><span class=p>(</span><span class=n>results</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;</span><span class=se>\n</span><span class=s2>Total entries processed: </span><span class=si>{</span><span class=nb>len</span><span class=p>(</span><span class=n>all_results</span><span class=p>)</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=c1># 添加保存进度显示</span>
+</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;Saving results to data.json...&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=s2>&#34;data.json&#34;</span><span class=p>,</span> <span class=s2>&#34;w&#34;</span><span class=p>,</span> <span class=n>encoding</span><span class=o>=</span><span class=s2>&#34;utf-8&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>f</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=n>json</span><span class=o>.</span><span class=n>dump</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>            <span class=p>[</span><span class=nb>vars</span><span class=p>(</span><span class=n>entry</span><span class=p>)</span> <span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>all_results</span><span class=p>],</span> <span class=n>f</span><span class=p>,</span> <span class=n>ensure_ascii</span><span class=o>=</span><span class=kc>False</span><span class=p>,</span> <span class=n>indent</span><span class=o>=</span><span class=mi>4</span>
+</span></span><span class=line><span class=cl>        <span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;Save completed!&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>if</span> <span class=vm>__name__</span> <span class=o>==</span> <span class=s2>&#34;__main__&#34;</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>main</span><span class=p>()</span>
+</span></span></code></pre></td></tr></table></div></div></details><details><summary>mapper.py</summary><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span><span class=lnt>68
+</span><span class=lnt>69
+</span><span class=lnt>70
+</span><span class=lnt>71
+</span><span class=lnt>72
+</span><span class=lnt>73
+</span><span class=lnt>74
+</span><span class=lnt>75
+</span><span class=lnt>76
+</span><span class=lnt>77
+</span><span class=lnt>78
+</span><span class=lnt>79
+</span><span class=lnt>80
+</span><span class=lnt>81
+</span><span class=lnt>82
+</span><span class=lnt>83
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>json</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>pathlib</span> <span class=kn>import</span> <span class=n>Path</span>
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>concurrent.futures</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>defaultdict</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>krkr_sprite_synth</span> <span class=kn>import</span> <span class=n>SpriteSynth</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>CHARACTER_NAME</span> <span class=o>=</span> <span class=s2>&#34;天音&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 角色名，应该与 reboot.json 中的 character 字段一致</span>
+</span></span><span class=line><span class=cl><span class=n>JAPANESE_CHARACTER_NAME</span> <span class=o>=</span> <span class=s2>&#34;天音&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 角色日语名，应该与 fgimage 中的一致</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>PARSED_DIR</span> <span class=o>=</span> <span class=s2>&#34;data.json&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 解析后的文件所在路径</span>
+</span></span><span class=line><span class=cl><span class=n>OUTPUT_PATH</span> <span class=o>=</span> <span class=sa>f</span><span class=s2>&#34;outputs/</span><span class=si>{</span><span class=n>CHARACTER_NAME</span><span class=si>}</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 语音分类结果输出路径</span>
+</span></span><span class=line><span class=cl><span class=n>VOICE_PATH</span> <span class=o>=</span> <span class=s2>&#34;voice&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 语音文件所在路径</span>
+</span></span><span class=line><span class=cl><span class=n>A_INFO_PATH</span> <span class=o>=</span> <span class=sa>f</span><span class=s2>&#34;fgimage/</span><span class=si>{</span><span class=n>JAPANESE_CHARACTER_NAME</span><span class=si>}</span><span class=s2>a.sinfo&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>B_INFO_PATH</span> <span class=o>=</span> <span class=sa>f</span><span class=s2>&#34;fgimage/</span><span class=si>{</span><span class=n>JAPANESE_CHARACTER_NAME</span><span class=si>}</span><span class=s2>b.sinfo&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>A_LAYERS_INFO_PATH</span> <span class=o>=</span> <span class=sa>f</span><span class=s2>&#34;fgimage/</span><span class=si>{</span><span class=n>JAPANESE_CHARACTER_NAME</span><span class=si>}</span><span class=s2>a.txt&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>B_LAYERS_INFO_PATH</span> <span class=o>=</span> <span class=sa>f</span><span class=s2>&#34;fgimage/</span><span class=si>{</span><span class=n>JAPANESE_CHARACTER_NAME</span><span class=si>}</span><span class=s2>b.txt&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>ASSETS_PATH</span> <span class=o>=</span> <span class=s2>&#34;fgimage&#34;</span>  <span class=c1># 图片所在的路径</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>data</span> <span class=o>=</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>synth</span> <span class=o>=</span> <span class=n>SpriteSynth</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>    <span class=n>a_info_path</span><span class=o>=</span><span class=n>A_INFO_PATH</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>b_info_path</span><span class=o>=</span><span class=n>B_INFO_PATH</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>a_layers_info_path</span><span class=o>=</span><span class=n>A_LAYERS_INFO_PATH</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>b_layers_info_path</span><span class=o>=</span><span class=n>B_LAYERS_INFO_PATH</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>assets_path</span><span class=o>=</span><span class=n>ASSETS_PATH</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>character_name</span><span class=o>=</span><span class=n>JAPANESE_CHARACTER_NAME</span><span class=p>,</span>
+</span></span><span class=line><span class=cl><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=n>PARSED_DIR</span><span class=p>,</span> <span class=s2>&#34;r&#34;</span><span class=p>,</span> <span class=n>encoding</span><span class=o>=</span><span class=s2>&#34;utf-8&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>json_file</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>data</span> <span class=o>=</span> <span class=n>json</span><span class=o>.</span><span class=n>load</span><span class=p>(</span><span class=n>json_file</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>data</span> <span class=o>=</span> <span class=p>[</span><span class=n>entry</span> <span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>data</span> <span class=k>if</span> <span class=n>entry</span><span class=p>[</span><span class=s2>&#34;character&#34;</span><span class=p>]</span> <span class=o>==</span> <span class=n>CHARACTER_NAME</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>result</span> <span class=o>=</span> <span class=n>defaultdict</span><span class=p>(</span><span class=nb>list</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>data</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>key</span> <span class=o>=</span> <span class=sa>f</span><span class=s2>&#34;</span><span class=si>{</span><span class=n>entry</span><span class=p>[</span><span class=s1>&#39;options&#39;</span><span class=p>][</span><span class=s1>&#39;pose&#39;</span><span class=p>]</span><span class=si>}</span><span class=s2>-</span><span class=si>{</span><span class=n>entry</span><span class=p>[</span><span class=s1>&#39;options&#39;</span><span class=p>][</span><span class=s1>&#39;face&#39;</span><span class=p>]</span><span class=si>}</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=n>result</span><span class=p>[</span><span class=n>key</span><span class=p>]</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>entry</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>process_entry</span><span class=p>(</span><span class=n>v</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=n>parse_result</span> <span class=o>=</span> <span class=n>synth</span><span class=o>.</span><span class=n>get_parse_result</span><span class=p>(</span><span class=o>**</span><span class=n>v</span><span class=p>[</span><span class=mi>0</span><span class=p>][</span><span class=s2>&#34;options&#34;</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=n>image</span> <span class=o>=</span> <span class=n>synth</span><span class=o>.</span><span class=n>draw</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;私服&#34;</span><span class=p>,</span> <span class=n>v</span><span class=p>[</span><span class=mi>0</span><span class=p>][</span><span class=s2>&#34;options&#34;</span><span class=p>][</span><span class=s2>&#34;face&#34;</span><span class=p>],</span> <span class=s2>&#34;1&#34;</span> <span class=k>if</span> <span class=n>parse_result</span><span class=o>.</span><span class=n>info_type</span> <span class=o>==</span> <span class=s2>&#34;a&#34;</span> <span class=k>else</span> <span class=s2>&#34;3&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>name</span> <span class=o>=</span> <span class=p>(</span>
+</span></span><span class=line><span class=cl>        <span class=n>parse_result</span><span class=o>.</span><span class=n>info_type</span>
+</span></span><span class=line><span class=cl>        <span class=o>+</span> <span class=s2>&#34;_&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=o>+</span> <span class=n>v</span><span class=p>[</span><span class=mi>0</span><span class=p>][</span><span class=s2>&#34;options&#34;</span><span class=p>][</span><span class=s2>&#34;face&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>        <span class=o>+</span> <span class=s2>&#34;#&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=o>+</span> <span class=s2>&#34;,&#34;</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>parse_result</span><span class=o>.</span><span class=n>faces</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=c1># Remove invalid characters</span>
+</span></span><span class=line><span class=cl>    <span class=n>name</span> <span class=o>=</span> <span class=s2>&#34;&#34;</span><span class=o>.</span><span class=n>join</span><span class=p>([</span><span class=n>c</span> <span class=k>for</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>name</span> <span class=k>if</span> <span class=n>c</span> <span class=ow>not</span> <span class=ow>in</span> <span class=sa>r</span><span class=s1>&#39;\/:*?&#34;&lt;&gt;|&#39;</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=n>output_k_path</span> <span class=o>=</span> <span class=n>Path</span><span class=p>(</span><span class=n>OUTPUT_PATH</span><span class=p>)</span> <span class=o>/</span> <span class=n>name</span>
+</span></span><span class=line><span class=cl>    <span class=n>output_k_path</span><span class=o>.</span><span class=n>mkdir</span><span class=p>(</span><span class=n>parents</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span> <span class=n>exist_ok</span><span class=o>=</span><span class=kc>True</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>image</span><span class=o>.</span><span class=n>save</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;</span><span class=si>{</span><span class=n>OUTPUT_PATH</span><span class=si>}</span><span class=s2>/</span><span class=si>{</span><span class=n>name</span><span class=si>}</span><span class=s2>.png&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>v</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=n>voice</span> <span class=o>=</span> <span class=p>(</span><span class=n>Path</span><span class=p>(</span><span class=n>VOICE_PATH</span><span class=p>)</span> <span class=o>/</span> <span class=p>(</span><span class=n>entry</span><span class=p>[</span><span class=s2>&#34;voice&#34;</span><span class=p>]</span> <span class=o>+</span> <span class=s2>&#34;.ogg&#34;</span><span class=p>))</span><span class=o>.</span><span class=n>read_bytes</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>        <span class=c1># Copy to output_k_path</span>
+</span></span><span class=line><span class=cl>        <span class=p>(</span><span class=n>output_k_path</span> <span class=o>/</span> <span class=p>(</span><span class=n>entry</span><span class=p>[</span><span class=s2>&#34;voice&#34;</span><span class=p>]</span> <span class=o>+</span> <span class=s2>&#34;.ogg&#34;</span><span class=p>))</span><span class=o>.</span><span class=n>write_bytes</span><span class=p>(</span><span class=n>voice</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Saved </span><span class=si>{</span><span class=n>output_k_path</span> <span class=o>/</span> <span class=p>(</span><span class=n>entry</span><span class=p>[</span><span class=s1>&#39;voice&#39;</span><span class=p>]</span> <span class=o>+</span> <span class=s1>&#39;.ogg&#39;</span><span class=p>)</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>with</span> <span class=n>concurrent</span><span class=o>.</span><span class=n>futures</span><span class=o>.</span><span class=n>ThreadPoolExecutor</span><span class=p>()</span> <span class=k>as</span> <span class=n>executor</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>futures</span> <span class=o>=</span> <span class=p>[</span><span class=n>executor</span><span class=o>.</span><span class=n>submit</span><span class=p>(</span><span class=n>process_entry</span><span class=p>,</span> <span class=n>v</span><span class=p>)</span> <span class=k>for</span> <span class=n>v</span> <span class=ow>in</span> <span class=n>result</span><span class=o>.</span><span class=n>values</span><span class=p>()]</span>
+</span></span><span class=line><span class=cl>    <span class=n>concurrent</span><span class=o>.</span><span class=n>futures</span><span class=o>.</span><span class=n>wait</span><span class=p>(</span><span class=n>futures</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div></details><details><summary>list_generator.py</summary><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span><span class=lnt>68
+</span><span class=lnt>69
+</span><span class=lnt>70
+</span><span class=lnt>71
+</span><span class=lnt>72
+</span><span class=lnt>73
+</span><span class=lnt>74
+</span><span class=lnt>75
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>json</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>pathlib</span> <span class=kn>import</span> <span class=n>Path</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>CHARACTER_NAME</span> <span class=o>=</span> <span class=s2>&#34;乃爱&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 角色名，应该与 data.json 中的 character 字段一致</span>
+</span></span><span class=line><span class=cl><span class=n>JAPANESE_CHARACTER_NAME</span> <span class=o>=</span> <span class=s2>&#34;乃愛&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 角色日语名，应该与 fgimage 中的一致</span>
+</span></span><span class=line><span class=cl><span class=n>USING_INDEXES</span> <span class=o>=</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;a_01&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;a_02&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;a_03&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;a_04&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;b_01&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;b_02&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;b_03&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;b_04&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=n>OUTPUT_PATH</span> <span class=o>=</span> <span class=s2>&#34;乃爱_普通.list&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 数据集文件输出路径</span>
+</span></span><span class=line><span class=cl><span class=n>PARSED_DIR</span> <span class=o>=</span> <span class=s2>&#34;data.json&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 解析后的文件所在路径</span>
+</span></span><span class=line><span class=cl><span class=n>MAPPER_OUTPUT_PATH</span> <span class=o>=</span> <span class=sa>f</span><span class=s2>&#34;outputs/</span><span class=si>{</span><span class=n>CHARACTER_NAME</span><span class=si>}</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># 语音分类结果输出路径</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=n>PARSED_DIR</span><span class=p>,</span> <span class=s2>&#34;r&#34;</span><span class=p>,</span> <span class=n>encoding</span><span class=o>=</span><span class=s2>&#34;utf-8&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>json_file</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>data</span> <span class=o>=</span> <span class=n>json</span><span class=o>.</span><span class=n>load</span><span class=p>(</span><span class=n>json_file</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>voice_data</span> <span class=o>=</span> <span class=p>{</span><span class=n>entry</span><span class=p>[</span><span class=s2>&#34;voice&#34;</span><span class=p>]:</span> <span class=n>entry</span><span class=p>[</span><span class=s2>&#34;text&#34;</span><span class=p>]</span> <span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>data</span><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># {path}|{name}|{language:JP}|{text}</span>
+</span></span><span class=line><span class=cl><span class=n>results</span> <span class=o>=</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>index</span> <span class=ow>in</span> <span class=n>USING_INDEXES</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=c1># 找到对应文件夹</span>
+</span></span><span class=line><span class=cl>    <span class=n>paths</span> <span class=o>=</span> <span class=nb>list</span><span class=p>(</span><span class=n>Path</span><span class=p>(</span><span class=n>MAPPER_OUTPUT_PATH</span><span class=p>)</span><span class=o>.</span><span class=n>glob</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;</span><span class=si>{</span><span class=n>index</span><span class=si>}</span><span class=s2>#*&#34;</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=ow>not</span> <span class=n>paths</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Index </span><span class=si>{</span><span class=n>index</span><span class=si>}</span><span class=s2> not found&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=n>path</span> <span class=o>=</span> <span class=n>paths</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=n>files</span> <span class=o>=</span> <span class=nb>list</span><span class=p>(</span><span class=n>path</span><span class=o>.</span><span class=n>glob</span><span class=p>(</span><span class=s2>&#34;*.ogg&#34;</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>for</span> <span class=n>file</span> <span class=ow>in</span> <span class=n>files</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=n>voice_name</span> <span class=o>=</span> <span class=n>file</span><span class=o>.</span><span class=n>stem</span>
+</span></span><span class=line><span class=cl>        <span class=n>text</span> <span class=o>=</span> <span class=n>voice_data</span><span class=o>.</span><span class=n>get</span><span class=p>(</span><span class=n>voice_name</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=n>text</span> <span class=ow>is</span> <span class=kc>None</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Text not found for </span><span class=si>{</span><span class=n>voice_name</span><span class=si>}</span><span class=s2>, skipping&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=n>text</span> <span class=o>=</span> <span class=p>(</span>
+</span></span><span class=line><span class=cl>            <span class=n>text</span><span class=o>.</span><span class=n>replace</span><span class=p>(</span><span class=s2>&#34;「&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=o>.</span><span class=n>replace</span><span class=p>(</span><span class=s2>&#34;」&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=o>.</span><span class=n>replace</span><span class=p>(</span><span class=s2>&#34;　&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=o>.</span><span class=n>replace</span><span class=p>(</span><span class=s2>&#34;『&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=o>.</span><span class=n>replace</span><span class=p>(</span><span class=s2>&#34;』&#34;</span><span class=p>,</span> <span class=s2>&#34;&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=c1># 如果只有符号，就不要了</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=nb>all</span><span class=p>([</span><span class=ow>not</span> <span class=n>c</span><span class=o>.</span><span class=n>isalnum</span><span class=p>()</span> <span class=k>for</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>text</span><span class=p>]):</span>
+</span></span><span class=line><span class=cl>            <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=s2>&#34;DL&#34;</span> <span class=ow>in</span> <span class=n>voice_name</span> <span class=ow>or</span> <span class=s2>&#34;DSP&#34;</span> <span class=ow>in</span> <span class=n>voice_name</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=n>path_str</span> <span class=o>=</span> <span class=nb>str</span><span class=p>(</span><span class=n>file</span><span class=o>.</span><span class=n>absolute</span><span class=p>())</span><span class=o>.</span><span class=n>replace</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\\</span><span class=s2>&#34;</span><span class=p>,</span> <span class=s2>&#34;/&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=n>results</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;</span><span class=si>{</span><span class=n>path_str</span><span class=si>}</span><span class=s2>|</span><span class=si>{</span><span class=n>CHARACTER_NAME</span><span class=si>}</span><span class=s2>|JA|</span><span class=si>{</span><span class=n>text</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=n>OUTPUT_PATH</span><span class=p>,</span> <span class=s2>&#34;w&#34;</span><span class=p>,</span> <span class=n>encoding</span><span class=o>=</span><span class=s2>&#34;utf-8&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>f</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>f</span><span class=o>.</span><span class=n>write</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\n</span><span class=s2>&#34;</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>results</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Saved to </span><span class=si>{</span><span class=n>OUTPUT_PATH</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div></details><details><summary>finder.py</summary><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>json</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>pathlib</span> <span class=kn>import</span> <span class=n>Path</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>data</span> <span class=o>=</span> <span class=n>json</span><span class=o>.</span><span class=n>loads</span><span class=p>(</span><span class=n>Path</span><span class=p>(</span><span class=s2>&#34;data.json&#34;</span><span class=p>)</span><span class=o>.</span><span class=n>read_text</span><span class=p>(</span><span class=s2>&#34;utf-8&#34;</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>if</span> <span class=vm>__name__</span> <span class=o>==</span> <span class=s2>&#34;__main__&#34;</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=k>while</span> <span class=kc>True</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=n>voice</span> <span class=o>=</span> <span class=nb>input</span><span class=p>(</span><span class=s2>&#34;你要查询哪条语音？&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=n>results</span> <span class=o>=</span> <span class=p>[</span><span class=n>entry</span> <span class=k>for</span> <span class=n>entry</span> <span class=ow>in</span> <span class=n>data</span> <span class=k>if</span> <span class=n>entry</span><span class=p>[</span><span class=s2>&#34;voice&#34;</span><span class=p>]</span> <span class=o>==</span> <span class=n>voice</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=nb>len</span><span class=p>(</span><span class=n>results</span><span class=p>)</span> <span class=o>==</span> <span class=mi>0</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;没有找到这条语音&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=k>continue</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;找到了 </span><span class=si>{</span><span class=nb>len</span><span class=p>(</span><span class=n>results</span><span class=p>)</span><span class=si>}</span><span class=s2> 条对应数据&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=k>for</span> <span class=n>result</span> <span class=ow>in</span> <span class=n>results</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;=&#34;</span> <span class=o>*</span> <span class=mi>50</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;    Character: </span><span class=si>{</span><span class=n>result</span><span class=p>[</span><span class=s1>&#39;character&#39;</span><span class=p>]</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;    Text: </span><span class=si>{</span><span class=n>result</span><span class=p>[</span><span class=s1>&#39;text&#39;</span><span class=p>]</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;    Dress: </span><span class=si>{</span><span class=n>result</span><span class=p>[</span><span class=s1>&#39;options&#39;</span><span class=p>][</span><span class=s1>&#39;dress&#39;</span><span class=p>]</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;    Pose: </span><span class=si>{</span><span class=n>result</span><span class=p>[</span><span class=s1>&#39;options&#39;</span><span class=p>][</span><span class=s1>&#39;pose&#39;</span><span class=p>]</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;    Face: </span><span class=si>{</span><span class=n>result</span><span class=p>[</span><span class=s1>&#39;options&#39;</span><span class=p>][</span><span class=s1>&#39;face&#39;</span><span class=p>]</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>except</span> <span class=ne>KeyboardInterrupt</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span></code></pre></td></tr></table></div></div></details><p>现在，你的文件夹应该差不多长这样</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-diff data-lang=diff><span class=line><span class=cl>  root/
+</span></span><span class=line><span class=cl>  ├── scn/
+</span></span><span class=line><span class=cl>  │ ├── 【共通】01.ks.scn
+</span></span><span class=line><span class=cl>  │ ├── 【共通】02.ks.scn
+</span></span><span class=line><span class=cl>  │ ├── 【共通】03.ks.scn
+</span></span><span class=line><span class=cl>  │ └── ...
+</span></span><span class=line><span class=cl>  ├── voice/
+</span></span><span class=line><span class=cl>  │ ├── ama_001_0001.ogg
+</span></span><span class=line><span class=cl>  │ ├── ama_001_0002.ogg
+</span></span><span class=line><span class=cl>  │ ├── ama_001_0003.ogg
+</span></span><span class=line><span class=cl>  │ └── ...
+</span></span><span class=line><span class=cl>  ├── fgimage/
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶.stand
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a.sinfo
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0_5096.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0_5097.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0_5151.png
+</span></span><span class=line><span class=cl>  │ ├── ...
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b.sinfo
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0_6423.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0_6529.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0_6530.png
+</span></span><span class=line><span class=cl>  │ └── ...
+</span></span><span class=line><span class=cl><span class=gi>+ ├── parser.py
+</span></span></span><span class=line><span class=cl><span class=gi>+ ├── mapper.py
+</span></span></span><span class=line><span class=cl><span class=gi>+ ├── list_generator.py
+</span></span></span><span class=line><span class=cl><span class=gi>+ └── finder.py
+</span></span></span></code></pre></td></tr></table></div></div><h2 id=操作>操作</h2><h3 id=解码剧情>解码剧情</h3><p>柚子社使用的是 Kirikiri 引擎，它的主体文件，包含对话、背景和动作，保存在了 <code>.scn</code> 文件中。</p><p><code>.scn</code> 文件是一种 <code>.psb</code> 文件（大概？），所以我们可以使用 FreeMote 将它转换为 JSON，方便脚本读取。</p><ol><li><p>将 <code>scn</code> 文件夹中的文件全部选择，拖拽到 <code>FreeMoteToolkit/PsbDecompile.exe</code>，等待解码完成。</p></li><li><p>解码过程中，一个命令行窗口会弹出来，等它消失之后，你会发现 <code>scn</code> 文件夹中多了一堆 <code>.json</code> 文件。</p></li><li><p>在 <code>scn</code> 的同级目录下新建一个 <code>unparsed</code> 文件夹后，把这些 <code>.json</code> 文件剪切进去。</p></li></ol><p>现在，你的文件夹应该长这样</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-diff data-lang=diff><span class=line><span class=cl>  root/
+</span></span><span class=line><span class=cl>  ├── scn/
+</span></span><span class=line><span class=cl>  │ ├── 【共通】01.ks.scn
+</span></span><span class=line><span class=cl>  │ ├── 【共通】02.ks.scn
+</span></span><span class=line><span class=cl>  │ ├── 【共通】03.ks.scn
+</span></span><span class=line><span class=cl>  │ └── ...
+</span></span><span class=line><span class=cl>  ├── voice/
+</span></span><span class=line><span class=cl>  │ ├── ama_001_0001.ogg
+</span></span><span class=line><span class=cl>  │ ├── ama_001_0002.ogg
+</span></span><span class=line><span class=cl>  │ ├── ama_001_0003.ogg
+</span></span><span class=line><span class=cl>  │ └── ...
+</span></span><span class=line><span class=cl>  ├── fgimage/
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶.stand
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a.sinfo
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0_5096.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0_5097.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶a_0_5151.png
+</span></span><span class=line><span class=cl>  │ ├── ...
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b.sinfo
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0.txt
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0_6423.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0_6529.png
+</span></span><span class=line><span class=cl>  │ ├── かぐ耶b_0_6530.png
+</span></span><span class=line><span class=cl>  │ └── ...
+</span></span><span class=line><span class=cl><span class=gi>+ ├── unparsed/
+</span></span></span><span class=line><span class=cl><span class=gi>+ │ ├── 【共通】01.ks.json
+</span></span></span><span class=line><span class=cl><span class=gi>+ │ ├── 【共通】01.ks.resx.json
+</span></span></span><span class=line><span class=cl><span class=gi>+ │ ├── 【共通】02.ks.json
+</span></span></span><span class=line><span class=cl><span class=gi>+ │ ├── 【共通】02.ks.resx.json
+</span></span></span><span class=line><span class=cl><span class=gi>+ │ ├── 【共通】03.ks.json
+</span></span></span><span class=line><span class=cl><span class=gi>+ │ ├── 【共通】03.ks.resx.json
+</span></span></span><span class=line><span class=cl><span class=gi>+ │ └── ...
+</span></span></span><span class=line><span class=cl><span class=gi></span>  ├── parser.py
+</span></span><span class=line><span class=cl>  ├── mapper.py
+</span></span><span class=line><span class=cl>  ├── list_generator.py
+</span></span><span class=line><span class=cl>  └── finder.py
+</span></span></code></pre></td></tr></table></div></div><p>接下来，就该脚本上场了。</p><h3 id=运行脚本>运行脚本</h3><h4 id=数据提取-parserpy>数据提取 (parser.py)</h4><p>假如你因为好奇而点开刚才那堆 JSON 文件看了眼，你会发现它们的结构十分复杂，完全不知道该怎么处理。</p><p>这时候， <code>parser.py</code> 就派上用场了。它会把这些复杂的结构解析成我们需要的文本、角色名、语音和立绘信息，方便我们后续的操作。</p><p><del>在运行脚本前，我们需要对 <code>parser.py</code> 进行一些配置。</del></p><p>这部分内容还在施工中，它有关脚本的通用性。目前而言，<code>parser.py</code> 仅在柚子社最新的几部作品上测试可行。具体而言，是它们的 <strong>吉里吉里2模拟器</strong> 版本。这里推荐到 <a class=link href=https://t-satoru.top/ target=_blank rel=noopener>小鳥遊暁の会员制餐厅</a> 获取。</p><p>现在，你可以打开命令行，输入下面的命令，运行脚本。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>python parser.py
+</span></span></code></pre></td></tr></table></div></div><p>顺利的话，你会看到进度条在不断增长，最后输出 <code>Save completed!</code>，这表示数据提取完成。
+同时，你的文件夹中会多出一个 <code>data.json</code> 文件，里面存储了所有的数据。</p><h4 id=语音分类-mapperpy>语音分类 (mapper.py)</h4><p>接下来，我们需要对语音使用立绘进行分类。</p><p>经过测试，这个方法能有效区分角色不同情感状态下的语音。这将有助于训练出优质的 GPT-SoVITS 模型，也会使参考音频的选择更加方便。</p><p>使用你安装的文本编辑器打开 <code>mapper.py</code>，修改其中的 <code>CHARACTER_NAME</code> 和 <code>JAPANESE_CHARACTER_NAME</code> 为你的角色名和日语角色名。</p><p>具体而言，<code>CHARACTER_NAME</code> 是 <code>data.json</code> 中的 <code>character</code> 字段，<code>JAPANESE_CHARACTER_NAME</code> 是 <code>fgimage</code> 文件夹中的立绘文件名。</p><blockquote><p>要将它们对应上，你可能需要一点日语基础。如果不知道的话，就去百科上找到这个角色的日语名，再对照立绘文件名吧。</p></blockquote><p>然后，你可以打开命令行，输入下面的命令，运行脚本。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>python mapper.py
+</span></span></code></pre></td></tr></table></div></div><p>顺利的话，你会看到一堆 <code>Saved ...</code> 的输出，这表示语音文件正在被分类到对应的立绘文件夹中。</p><p>这时候，你的文件夹应该是这样的</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-diff data-lang=diff><span class=line><span class=cl>  root/
+</span></span><span class=line><span class=cl>  ├── scn/
+</span></span><span class=line><span class=cl>  │   ├── 【共通】01.ks.scn
+</span></span><span class=line><span class=cl>  │   ├── 【共通】02.ks.scn
+</span></span><span class=line><span class=cl>  │   ├── 【共通】03.ks.scn
+</span></span><span class=line><span class=cl>  │   └── ...
+</span></span><span class=line><span class=cl>  ├── voice/
+</span></span><span class=line><span class=cl>  │   ├── ama_001_0001.ogg
+</span></span><span class=line><span class=cl>  │   ├── ama_001_0002.ogg
+</span></span><span class=line><span class=cl>  │   ├── ama_001_0003.ogg
+</span></span><span class=line><span class=cl>  │   └── ...
+</span></span><span class=line><span class=cl>  ├── fgimage/
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶.stand
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶a.sinfo
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶a.txt
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶a_0.txt
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶a_0_5096.png
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶a_0_5097.png
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶a_0_5151.png
+</span></span><span class=line><span class=cl>  │   └── ...
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶b.sinfo
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶b.txt
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶b_0.txt
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶b_0_6423.png
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶b_0_6529.png
+</span></span><span class=line><span class=cl>  │   ├── かぐ耶b_0_6530.png
+</span></span><span class=line><span class=cl>  │   └── ...
+</span></span><span class=line><span class=cl>  ├── unparsed/
+</span></span><span class=line><span class=cl>  │   ├── 【共通】01.ks.json
+</span></span><span class=line><span class=cl>  │   ├── 【共通】01.ks.resx.json
+</span></span><span class=line><span class=cl>  │   ├── 【共通】02.ks.json
+</span></span><span class=line><span class=cl>  │   ├── 【共通】02.ks.resx.json
+</span></span><span class=line><span class=cl>  │   ├── 【共通】03.ks.json
+</span></span><span class=line><span class=cl>  │   ├── 【共通】03.ks.resx.json
+</span></span><span class=line><span class=cl>  │   └── ...
+</span></span><span class=line><span class=cl><span class=gi>+ ├── outputs/
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   ├── 辉耶/
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── a_01#表情（耳無し）表情ベース/
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_006_0009.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_009_0031.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_013_0008.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_013_0012.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   └── ...
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── a_02#表情（耳無し）3笑顔1/
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_006_0001.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_007_0008.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_008_0001.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   ├── kag_009_0024.ogg
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   │   └── ...
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── ...
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── a_01#表情（耳無し）表情ベース.png
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── a_02#表情（耳無し）3笑顔1.png
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── a_02h#表情（耳無し）3笑顔1,頬　弱.png
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── a_03#表情（耳無し）5微笑み1.png
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   ├── a_03h#表情（耳無し）5微笑み1,頬　弱.png
+</span></span></span><span class=line><span class=cl><span class=gi>+ │   │   └── ...
+</span></span></span><span class=line><span class=cl><span class=gi></span>  ├── parser.py
+</span></span><span class=line><span class=cl>  ├── mapper.py
+</span></span><span class=line><span class=cl>  ├── list_generator.py
+</span></span><span class=line><span class=cl>  └── finder.py
+</span></span></code></pre></td></tr></table></div></div><h4 id=生成-list-文件-list_generatorpy>生成 .list 文件 (list_generator.py)</h4><p>一个受人喜爱的角色必然是立体的，她的语音也应该是多样的。</p><p>为了不丢失这些多样性，我们可以把一个角色的语音分成几个大类，然后分别训练 GPT-SoVITS 模型。
+这样也能避免后续使用音调较高的参考音频时，角色的语音变得沙哑的问题。</p><p>操作如下：</p><ol><li>进入 <code>outputs</code> 文件夹，找到你的角色文件夹，里面应该有很多子文件夹，每个子文件夹对应一中立绘表情。</li><li>鉴赏立绘，找到你想训练的种类的立绘（如平和、愤怒、悲伤等），记住它的文件编号。举个例子，<code>a_01#表情（耳無し）表情ベース</code> 的编号是 <code>a_01</code>。</li><li>打开 <code>list_generator.py</code>，修改其中的 <code>CHARACTER_NAME</code> 和 <code>JAPANESE_CHARACTER_NAME</code> 为你的角色名和日语角色名。</li><li>修改 <code>USING_INDEXES</code> 为你想要训练的立绘编号。编号本身被半角双引号包裹，用逗号分隔。</li><li>修改 <code>OUTPUT_PATH</code> 为你想要输出的 <code>.list</code> 文件名，如 <code>乃爱_普通.list</code>。</li><li>（可选，不建议，效果提升不大）进入你选中编号的各个子文件夹，把语音全都听一遍，然后删除你认为偏离主题的语音。</li><li>打开命令行，输入下面的命令，运行脚本。</li></ol><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>python list_generator.py
+</span></span></code></pre></td></tr></table></div></div><p>顺利的话，你会看到 <code>Saved to ...</code> 的输出，这表示 <code>.list</code> 文件已经生成。</p><p>推荐使用文本编辑器打开 <code>.list</code> 文件，删除一些文字与语音不匹配的条目，以提高模型的训练效果。</p><p>举个例子，「……、ワタシも別にいいですけど」前面的省略号实际上在语音里可能是ん的发音，这时候就需要删除这个条目（如果你不嫌麻烦可以自己听一下修正过来）。</p><h3 id=训练-gpt-sovits-模型>训练 GPT-SoVITS 模型</h3><p>接下来，就可以使用刚才生成的 <code>.list</code> 文件，训练 GPT-SoVITS 模型了。</p></section><footer class=article-footer><section class=article-tags><a href=/tags/%E6%9F%9A%E5%AD%90%E7%A4%BE/>柚子社</a>
+<a href=/tags/gpt-sovits/>GPT-SoVITS</a></section></footer></article><footer class=site-footer><section class=copyright>&copy;
+2024 -
+2025 zhaomaoniu</section><section class=powerby>使用 <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> 构建<br>主题 <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.31.0>Stack</a></b> 由 <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a> 设计</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
